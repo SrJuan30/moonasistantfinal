@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #6f0000,#200122);
+}
+.container{
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: minmax(100px, auto);
+    margin: 50px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+}
+.container .box{
+    background: #353b48;
+    padding: 50px;
+    display: grid;
+    font-size: 20px;
+    place-items: center;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+}
+.container .box:hover{
+    background: #e91e63;
+}
+.container .box img{
+    position: relative;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.container .box:nth-child(1){
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.container .box:nth-child(2){
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.container .box:nth-child(4){
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.container .box:nth-child(5){
+    grid-column: span 3;
+    grid-row: span 1;
+}
+a{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:  center;
+    align-items:  center;
+    min-height: 100vh;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #7efff5;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a:hover{
+    color: #fff;
+    background: #7efff5;
+    box-shadow: 0 0 10px #7efff5, 0 0 40px #7efff5, 0 0 80px #7efff5;
+    transition-delay: 0.2s;
+}

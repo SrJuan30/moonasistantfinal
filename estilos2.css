@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+  }
+  .banner {
+    font-family: "Oswald", sans-serif;
+    background-color: #000000;
+    /* Pattern from https://www.heropatterns.com/ */
+    background: black;
+    color: #1e272e;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  
+  .contenedor  {
+    font-family: "Oswald", sans-serif ;
+    background-color: #000000 ;
+    /* Pattern from https://www.heropatterns.com/ */
+    background: black ;
+    color: #1e272e ;
+    color: #fff ;
+    font-size: 16px ;
+    align-items: center;
+    
+  }
+
+  .nav-main {
+    font-size: 17px ;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center ;
+    height: 60px ;
+    padding: 20px 0;
+  }
+  
+  .nav-brand {
+    width: 50px ;
+  }
+  
+  /* Navbar Left */
+  .nav-main ul {
+    display: flex ;
+  }
+  
+  .nav-main ul li {
+    padding: 10px ; 
+  }
+  
+  .nav-main ul li a {
+    padding: 2px ;
+  }
+  
+  .nav-main ul li a:hover {
+    border-bottom: 2px solid #fff ;
+  }
+  
+  .nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+
+  /*Foticos y maricadas*/
+
+.foticos{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.foticos,body{
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: #f2f2f2;
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    height: 290px;
+    width: 350px;
+    margin: 0 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: white;
+}
+.card:hover{
+    height: 470px;
+}
+
+.card .img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card .top-text{
+    padding: 5px;
+}
+.card .top-text .name{
+    font-size: 25px;
+    font-weight: 600;
+    color: #bdc3c7;
+}
+.card .top-text p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #c0392b;
+    line-height: 20px;
+}
+.card .bottom-text{
+    padding: 0 20px 10px 20px;
+    margin-top: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+    background: #95a5a6;
+}
+.card:hover .bottom-text{
+    opacity: 1;
+    visibility: visible;
+}
+.card .bottom-text .text{
+    text-align: center;
+}
+/*Card 2*/
+.card2{
+    height: 290px;
+    width: 350px;
+    margin: 0 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: white;
+    margin-top: 200px;
+}
+.card2:hover{
+    height: 470px;
+}
+
+.card2 .img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card2 .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card2 .top-text{
+    padding: 5px;
+}
+.card2 .top-text .name{
+    font-size: 25px;
+    font-weight: 600;
+    color: #bdc3c7;
+}
+.card2 .top-text p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #c0392b;
+    line-height: 20px;
+}
+.card2 .bottom-text{
+    padding: 0 20px 10px 20px;
+    margin-top: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+    background: #95a5a6;
+}
+.card2:hover .bottom-text{
+    opacity: 1;
+    visibility: visible;
+}
+.card2 .bottom-text .text{
+    text-align: center;
+}

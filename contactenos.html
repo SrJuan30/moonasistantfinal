@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagenes/logo.png">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="estilos6.css">
+    <title>Contactenos</title>
+</head>
+<body>
+    <form action="correo.php" method="POST">
+    <div class="container">
+        <h2>Contactenos</h2>
+        <div class="row100">
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="nombre" required="requiered">
+                    <span class="text">Nombre/Name</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text"  name="Apellido" required="requiered">
+                    <span class="text">Apellido/Last Name</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row100">
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="asunto" required="requiered">
+                    <span class="text">Asunto/Subject</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="email" required="requiered">
+                    <span class="text">Correo/Email</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row100">
+            <div class="col">
+                <div class="inputBox textarea">
+                    <textarea required="requiered" name="mensaje" required="requiered"></textarea>
+                        <span class="text" id="msgaqui" id="mensaje">Mensaje.../Message...</span>
+                        <span class="line" id="mensajeaqui"></span>
+                </div>
+            </div>
+         </div>
+     <div class="row100">
+        <div class="col">
+            <button type="submit">Enviar/Send</button>
+        </div>
+        </div>    
+    </div>
+
+    <a href="index.html">VOLVER</a>
+</form>
+</body>
+</html>
